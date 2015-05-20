@@ -3,8 +3,8 @@ package com.sds.icto.guestbook.vo;
 public class GuestBookVo {
 	private Long no;
 	private String name;
-	private String pwd;
-	private String msg;
+	private String password;
+	private String message;
 	private String date;
 	public Long getNo() {
 		return no;
@@ -18,17 +18,17 @@ public class GuestBookVo {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getPwd() {
-		return pwd;
+	public String getPassword() {
+		return password;
 	}
-	public void setPwd(String pwd) {
-		this.pwd = pwd;
+	public void setPassword(String password) {
+		this.password = password;
 	}
-	public String getMsg() {
-		return msg;
+	public String getMessage() {
+		return message;
 	}
-	public void setMsg(String msg) {
-		this.msg = msg;
+	public void setMessage(String message) {
+		this.message = message;
 	}
 	public String getDate() {
 		return date;
